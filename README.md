@@ -28,7 +28,7 @@ Files
 | **template.sh** | A fully self-contained script which combines `source.sh` & `script.sh`                          |
 | **source.sh**   | Designed for sourcing into scripts; contains only those functions unlikely to need modification |
 | **script.sh**   | Sample script which sources in `source.sh` and contains those functions likely to be modified   |
-| **build.sh**    | Generates `template.sh` by combining `source.sh` & `template.sh` (just a helper script)         |
+| **build.sh**    | Generates `template.sh` by combining `source.sh` & `script.sh` (just a helper script)         |
 
 Usage
 -----
